@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product-list</title>
+    <link rel="stylesheet" href="../css/pro-list.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header class="Header">
+        <div class="container-fluid">
+            <div class="Banner">
+                <img src="../img/LG-nike-fixx.jpg" class="img" />
+            </div>
+            <div class="menu-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2 nav-b "><a href="./Home.html"><img src="../img/logo-bar.jpg"
+                                    class="lg-bar"></a></div>
+                        <div class="col-lg-1 nav-b mt-2"><a href="./pro-list.html">Men</a></div>
+                        <div class="col-lg-1 nav-b mt-2"><a href="./pro-list.html">Women</a></div>
+                        <div class="col-lg-1 nav-b mt-2"><a href="./pro-list.html">Kids</a></div>
+                        <div class="col-lg-1 nav-b mt-2"><a href="./pro-list.html">Customise</a></div>
+                        <div class="col-lg-1 nav-b mt-2"><a href="./about.html">About</a></div>
+                        <div class="col-lg-1 nav-b mt-2"><a href="./Contact.html">Contact</a></div>
+                        <div class="col-lg-1 nav-b mt-2"><a href="./login.html">Login</a></div>
+                        <div class="col-lg-2">
+                            <div class="search-bar"><input placeholder="Search" type="text" class="search-in" /><i
+                                    class="bi bi-search s-icon btn"></i></div>
+                        </div>
+
+                        <div class="col-lg-1 nav-b "><a href="./checkout.html"><i
+                                    class="bi bi-cart-fill cart-icon mb-3 pb"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 category" id="myselect" onchange="change_myselect(this.value)">
+                    <button type="button" class="btn btn-light circle" value="customers"></button>
+                    <a>Nike</a>
+                    <br>
+                    <button type="button" class="btn btn-light circle"></button>
+                    <a>Sport</a>
+                    <br>
+                    <button type="button" class="btn btn-light circle"></button>
+                    <a>Jordan</a>
+                    <br>
+                    <button type="button" class="btn btn-light circle"></button>
+                    <a>Running</a>
+                    <br>
+                    <button type="button" class="btn btn-light circle"></button>
+                    <a>Puma</a>
+                    <br>
+                    <button type="button" class="btn btn-light circle"></button>
+                    <a>Yoga</a>
+                    <div class="line"></div>
+                    <a>Size :</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 size1"><a>35</a></div>
+                            <div class="col-lg-3 size"><a>36</a></div>
+                            <div class="col-lg-3 size"><a>37</a></div>
+                        </div>
+                        <div class="row size-top">
+                            <div class="col-lg-3 size1"><a>38</a></div>
+                            <div class="col-lg-3 size"><a>39</a></div>
+                            <div class="col-lg-3 size"><a>40</a></div>
+                        </div>
+                        <div class="row size-top">
+                            <div class="col-lg-3 size1"><a>41</a></div>
+                            <div class="col-lg-3 size"><a>42</a></div>
+                            <div class="col-lg-3 size"><a>43</a></div>
+                        </div>
+                        <div class="row size-top">
+                            <div class="col-lg-3 size1"><a>44</a></div>
+                            <div class="col-lg-3 size"><a>45</a></div>
+                            <div class="col-lg-3 size"><a>46</a></div>
+                        </div>
+                        <div class="row size-top">
+                            <div class="col-lg-3 size1"><a>47</a></div>
+                            <div class="col-lg-3 size"><a>48</a></div>
+                            <div class="col-lg-3 size"><a>49</a></div>
+                        </div>
+                        <div class="row size-top">
+                            <div class="col-lg-3 size1"><a>50</a></div>
+                            <div class="col-lg-3 size"><a>51</a></div>
+                            <div class="col-lg-3 size"><a>52</a></div>
+                        </div>
+                    </div>
+                    <p id="demo"></p>
+                </div>
+                <div class="col-lg-9">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3 item">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="../img/acg-air-mada-bison-and-total-orange-do9332-200-release-date(6).jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 item">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="../img/acg-moc-3-5-cargo-khaki-do9333-300-release-date(6).jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 item">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="../img/acg-mountain-fly-low-white-and-black-do9334-100-release-date(6).jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 item">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="../img/acg-air-mada-bison-and-total-orange-do9332-200-release-date(6).jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 item">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="../img/acg-moc-3-5-cargo-khaki-do9333-300-release-date(6).jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 item">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="../img/acg-mountain-fly-low-white-and-black-do9334-100-release-date(6).jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 item">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="../img/acg-air-mada-bison-and-total-orange-do9332-200-release-date(6).jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 item">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="../img/acg-moc-3-5-cargo-khaki-do9333-300-release-date(6).jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 item">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="../img/acg-mountain-fly-low-white-and-black-do9334-100-release-date(6).jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 bold">
+                    <h4>FIND A STORE</h4>
+                    <h4>BECOME A MEMBER</h4>
+                    <h4>SINGUP FOR EMAIL</h4>
+                    <h4>SEND US FEEDBACK</h4>
+                </div>
+                <div class="col-lg-3">
+                    <a class="bold">
+                        <h4>GET HELP</h4>
+                    </a>
+                    <a class="fo-text">Order Status</a>
+                    <a class="fo-text">Delivery</a>
+                    <a class="fo-text">Return</a>
+                    <a class="fo-text">Payment Option</a>
+                    <a class="fo-text" href="./Contact.html">Contact</a>
+                </div>
+                <div class="col-lg-3">
+                    <a class="bold">
+                        <h4>ABOUT NIKE</h4>
+                    </a>
+                    <a class="fo-text">News</a>
+                    <a class="fo-text">Careers</a>
+                    <a class="fo-text">Investor</a>
+                    <a class="fo-text">Sustainability</a>
+                </div>
+                <div class="col-lg-3">
+                    <a class="fo-icon"><i class="bi bi-facebook"></i></a>
+                    <a class="fo-icon"><i class="bi bi-instagram"></i></a>
+                    <a class="fo-icon"><i class="bi bi-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Header {
+    max-width: 100% auto;
+}
+
+.img {
+    width: 100%;
+    height: 150px;
+}
+
+.banner {
+    position: relative;
+}
+
+.menu-bar {
+    width: 100%;
+    background-color: #7f7f7f;
+    position: sticky;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.lg-bar {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.nav-b {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-b a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.search-in {
+    padding: 5px;
+    color: black;
+    width: 250 px;
+    border: 1px black solid;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.s-icon {
+    font-size: 25px !important;
+    position: absolute;
+    top: -6px;
+    right: -36px;
+    padding-bottom: 10px;
+}
+
+.cart-icon {
+    font-size: 38px !important;
+    font-weight: 1500 !important;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.main {
+    max-width: 100% auto;
+}
+
+.category {
+    background-color: white;
+    margin-top: 40px;
+}
+
+.size,
+.size1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.size1 {
+    margin-left: 20px;
+}
+
+.size-top {
+    margin-top: 20px;
+}
+
+.circle {
+    margin: 5px;
+    border-radius: 60px !important;
+    padding: 8px !important;
+    border: 3px black solid !important;
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.size tr td {
+    border: 3px black solid;
+    background-color: white;
+    text-align: center;
+    width: 60px;
+    height: 30px;
+}
+
+.size tr td a {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+
+.item {
+    padding: 0px;
+    margin-left: 65px;
+    margin-top: 20px;
+    height: 450;
+}
+
+.footer {
+    background-color: black;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+.bold h4 {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.fo-text {
+    color: #a5a5a5;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.fo-icon {
+    color: #a5a5a5;
+    margin-right: 30px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 744px) {
+    .fo-icon {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+}

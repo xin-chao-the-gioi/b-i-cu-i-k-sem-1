@@ -1,0 +1,27 @@
+.navchoices a{
+    color: rgb(255, 255, 255);
+    padding-top: 3030px !important;
+}
+.form-group i{
+    width: 50% !important;
+    font-size: large;
+}
+.form-group label{
+    font-size:larger;
+    font-weight: bold;
+}
+.form-group button{
+    background-color: aqua !important;
+}
+.btn-dark{
+    width: 100%;
+}
+.logo12{
+    margin-left: 90px;
+    width: 45%;
+    margin-bottom: 20px;
+}
+.passforgot{
+    color: gray;
+    margin-top: 20px;
+}
