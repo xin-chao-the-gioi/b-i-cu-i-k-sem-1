@@ -1,0 +1,18 @@
+.imgcard {
+  width: 479px;
+  height: 537px;
+}
+
+.leftcol {
+  width: 50%;
+}
+
+.rightcol {
+  width: 50%;
+  margin-top: 10px
+}
+
+.rightcol h4 {
+  width: 50%;
+  padding: 15px;
+}
